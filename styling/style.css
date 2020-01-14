@@ -1,0 +1,61 @@
+body {
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 41%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+nav {
+}
+.active {
+  background-color: #4caf50;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 7%;
+  font-size: 500%;
+  margin-bottom: 0%;
+  animation-name: fade-bottom;
+  animation-duration: 4s;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 1%;
+}
+@keyframes fade-bottom {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 7%;
+  }
+}
