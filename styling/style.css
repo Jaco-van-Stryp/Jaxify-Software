@@ -4,6 +4,8 @@ body {
   background-size: contain;
   background-color: #030301;
   min-width: fit-content;
+  min-width: 1300px;
+  max-width: 2500px;
 }
 ul {
   list-style-type: none;
