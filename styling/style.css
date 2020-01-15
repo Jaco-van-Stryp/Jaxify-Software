@@ -37,7 +37,7 @@ h1 {
   color: white;
   text-align: center;
   margin-top: 7%;
-  font-size: 500%;
+  font-size: 400%;
   margin-bottom: 0%;
 }
 h2 {
@@ -64,6 +64,8 @@ p {
   margin-left: 25%;
   margin-right: 25%;
   border-radius: 15px;
+  width: fit-content;
+  max-width: 80%;
 }
 footer {
   float: inline-end;
