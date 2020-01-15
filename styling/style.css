@@ -1,10 +1,5 @@
 body {
-  background-image: url(../images/back.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
   background-color: #030301;
-  min-width: 1800px;
-  max-width: 1900px;
 }
 ul {
   list-style-type: none;
@@ -52,7 +47,7 @@ h2 {
   margin-top: 1%;
 }
 .about {
-  padding-top: 40%;
+  margin-top: -10%;
 }
 p {
   color: white;
@@ -85,58 +80,63 @@ footer {
   border-style: solid;
   border-color: white;
   border-width: 5px;
-  float: right;
-  margin-right: 15%;
-  margin-top: 6%;
-  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-.developer {
-  float: right;
-  margin-right: 5%;
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-.offer {
-  float: left;
-  margin-top: 9%;
-  margin-left: 5%;
-}
+
 .borderOffer {
   border-style: solid;
   border-color: white;
   border-radius: 15px;
-  margin-top: 10%;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.mainbackground {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .products {
-  margin-top: 60%;
-  margin-bottom: 30%;
+  width: auto;
 }
 .basic {
-  width: 20%;
+  width: fit-content;
+
   height: 500px;
-  margin-left: 10%;
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
   border-style: solid;
   border-color: white;
   border-width: 5px;
+  min-width: 350px;
 }
 
 .advanced {
-  width: 20%;
+  margin-top: 3%;
+
+  width: fit-content;
+
   height: 500px;
-  margin-left: 40%;
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
   border-style: solid;
   border-color: white;
   border-width: 5px;
   border-radius: 15px;
+  min-width: 350px;
 }
 .business {
-  width: 20%;
+  margin-top: 3%;
+
+  width: fit-content;
+  min-width: 350px;
   height: 500px;
   margin-left: 70%;
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
   border-style: solid;
   border-color: white;
   border-width: 5px;
