@@ -196,3 +196,9 @@ html {
 :target {
   padding-top: 1%;
 }
+.LI-profile-badge {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: fit-content;
+}
